@@ -13,6 +13,7 @@ p {
 
 .container {
     display: flex;
+
 }
 
 .half-width {
@@ -37,12 +38,32 @@ p {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+
 }
 
 .section2 {
     margin-top: 100px;
-    padding-right: 2%;
+    padding-right: 10%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: top;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 40px rgb(156, 153, 153);
+    border-left: 5px solid rgb(248, 8, 8);
+    padding: 20px;
+    margin: 50px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#right-side {
+    border-left: 5px solid rgb(152, 8, 248);
+
 }
