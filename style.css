@@ -11,7 +11,7 @@ p {
     text-align: justify;
 }
 
-section {
+.container {
     display: flex;
 }
 
@@ -37,4 +37,12 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.section2 {
+    margin-top: 100px;
+    padding-right: 2%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
